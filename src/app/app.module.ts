@@ -7,13 +7,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
